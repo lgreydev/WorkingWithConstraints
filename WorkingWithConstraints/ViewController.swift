@@ -9,11 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
-
-
 }
+
+
+extension UILabel  {
+    func radius() {
+        self.layer.masksToBounds = true
+        self.layer.cornerRadius = 10
+    }
+}
+
+
+
 
