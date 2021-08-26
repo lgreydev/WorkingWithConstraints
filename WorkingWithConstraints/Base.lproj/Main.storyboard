@@ -253,6 +253,22 @@
             </objects>
             <point key="canvasLocation" x="684.61538461538464" y="889.33649289099526"/>
         </scene>
+        <!--Screen 5-->
+        <scene sceneID="0Zm-M4-udm">
+            <objects>
+                <viewController id="Lox-9e-jAQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kV3-zO-AaC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="HJd-ug-Ysn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Screen 5" image="square.split.bottomrightquarter.fill" catalog="system" id="apl-xP-sje"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aCM-j9-6Id" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1338" y="935"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8Hq-Z4-XEQ">
             <objects>
@@ -268,6 +284,7 @@
                         <segue destination="DhI-QB-DpN" kind="relationship" relationship="viewControllers" id="OQg-aS-PYO"/>
                         <segue destination="C60-WC-6cM" kind="relationship" relationship="viewControllers" id="tmU-cE-SAU"/>
                         <segue destination="gVA-ob-Cnn" kind="relationship" relationship="viewControllers" id="e2I-Ep-9H8"/>
+                        <segue destination="Lox-9e-jAQ" kind="relationship" relationship="viewControllers" id="8jn-6p-pg6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k9Y-As-NBS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
