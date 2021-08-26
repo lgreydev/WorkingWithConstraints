@@ -180,39 +180,29 @@
         <!--Screen 3-->
         <scene sceneID="Rfq-nJ-UgE">
             <objects>
-                <viewController id="C60-WC-6cM" sceneMemberID="viewController">
+                <viewController id="C60-WC-6cM" customClass="ThirdControllerScreen" customModule="WorkingWithConstraints" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SHA-Mk-rQr">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2GU-PN-hdw">
-                                <rect key="frame" x="16" y="44" width="358" height="683"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6hM-yq-5sy">
-                                        <rect key="frame" x="0.0" y="0.0" width="358" height="683"/>
-                                    </stackView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="6hM-yq-5sy" secondAttribute="bottom" id="0Om-nj-k7I"/>
-                                    <constraint firstItem="6hM-yq-5sy" firstAttribute="leading" secondItem="2GU-PN-hdw" secondAttribute="leading" id="F8y-Mi-nG4"/>
-                                    <constraint firstItem="6hM-yq-5sy" firstAttribute="bottom" secondItem="oyg-LF-eVW" secondAttribute="bottom" id="VQK-EI-2n3"/>
-                                    <constraint firstItem="6hM-yq-5sy" firstAttribute="centerX" secondItem="2GU-PN-hdw" secondAttribute="centerX" id="dgW-M4-ZFb"/>
-                                    <constraint firstAttribute="trailing" secondItem="6hM-yq-5sy" secondAttribute="trailing" id="m4H-8a-JSh"/>
-                                    <constraint firstItem="6hM-yq-5sy" firstAttribute="top" secondItem="oyg-LF-eVW" secondAttribute="top" id="mJW-eS-5hy"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="4Cy-Tp-w7b"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="oyg-LF-eVW"/>
-                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7am-Pn-2L8">
+                                <rect key="frame" x="16" y="64" width="358" height="677"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="42n-35-69q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="2GU-PN-hdw" firstAttribute="trailing" secondItem="SHA-Mk-rQr" secondAttribute="trailingMargin" id="1ak-MP-386"/>
-                            <constraint firstItem="2GU-PN-hdw" firstAttribute="top" secondItem="SHA-Mk-rQr" secondAttribute="topMargin" id="4Hw-g1-oLb"/>
-                            <constraint firstItem="2GU-PN-hdw" firstAttribute="leading" secondItem="SHA-Mk-rQr" secondAttribute="leadingMargin" id="yiN-2H-S63"/>
+                            <constraint firstItem="7am-Pn-2L8" firstAttribute="top" secondItem="42n-35-69q" secondAttribute="top" constant="20" id="1Gb-Go-HkB"/>
+                            <constraint firstItem="7am-Pn-2L8" firstAttribute="bottom" secondItem="42n-35-69q" secondAttribute="bottom" constant="-20" id="LiP-5p-ZHL"/>
+                            <constraint firstItem="7am-Pn-2L8" firstAttribute="leading" secondItem="SHA-Mk-rQr" secondAttribute="leadingMargin" id="VKA-X8-Hla"/>
+                            <constraint firstItem="7am-Pn-2L8" firstAttribute="trailing" secondItem="SHA-Mk-rQr" secondAttribute="trailingMargin" id="fCm-Yj-quG"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Screen 3" image="square.split.bottomrightquarter.fill" catalog="system" id="U0b-kG-nxD"/>
+                    <connections>
+                        <outlet property="myView" destination="7am-Pn-2L8" id="bvU-nJ-flS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EJn-0c-90k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -250,6 +240,9 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
