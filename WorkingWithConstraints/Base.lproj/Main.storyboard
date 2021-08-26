@@ -51,7 +51,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-555" y="918"/>
+            <point key="canvasLocation" x="-1229" y="801"/>
         </scene>
         <!--Screen 2-->
         <scene sceneID="qBx-co-yMf">
@@ -175,7 +175,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="scv-gK-Hqc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="371" y="920"/>
+            <point key="canvasLocation" x="-588" y="837"/>
         </scene>
         <!--Screen 3-->
         <scene sceneID="Rfq-nJ-UgE">
@@ -186,21 +186,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7am-Pn-2L8">
-                                <rect key="frame" x="16" y="0.0" width="175" height="844"/>
+                                <rect key="frame" x="0.0" y="0.0" width="191" height="844"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eRY-4R-Fce">
-                                <rect key="frame" x="199" y="0.0" width="175" height="844"/>
+                                <rect key="frame" x="199" y="0.0" width="191" height="844"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="42n-35-69q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7am-Pn-2L8" firstAttribute="leading" secondItem="SHA-Mk-rQr" secondAttribute="leadingMargin" id="11n-pe-Hhe"/>
+                            <constraint firstItem="7am-Pn-2L8" firstAttribute="leading" secondItem="SHA-Mk-rQr" secondAttribute="leading" id="11n-pe-Hhe"/>
                             <constraint firstItem="7am-Pn-2L8" firstAttribute="top" secondItem="SHA-Mk-rQr" secondAttribute="top" id="EDG-Hb-i7U"/>
                             <constraint firstItem="7am-Pn-2L8" firstAttribute="width" secondItem="eRY-4R-Fce" secondAttribute="width" id="JPd-jp-gSA"/>
-                            <constraint firstItem="eRY-4R-Fce" firstAttribute="trailing" secondItem="SHA-Mk-rQr" secondAttribute="trailingMargin" id="ZhZ-af-5bA"/>
+                            <constraint firstItem="eRY-4R-Fce" firstAttribute="trailing" secondItem="SHA-Mk-rQr" secondAttribute="trailing" id="ZhZ-af-5bA"/>
                             <constraint firstItem="eRY-4R-Fce" firstAttribute="top" secondItem="7am-Pn-2L8" secondAttribute="top" id="bHg-wb-RwP"/>
                             <constraint firstItem="7am-Pn-2L8" firstAttribute="bottom" secondItem="SHA-Mk-rQr" secondAttribute="bottom" id="kl6-BB-m6o"/>
                             <constraint firstItem="eRY-4R-Fce" firstAttribute="leading" secondItem="7am-Pn-2L8" secondAttribute="trailing" constant="8" symbolic="YES" id="qpa-32-Ai2"/>
@@ -215,7 +215,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EJn-0c-90k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1310.7692307692307" y="920.61611374407573"/>
+            <point key="canvasLocation" x="55" y="857"/>
+        </scene>
+        <!--Screen 4-->
+        <scene sceneID="FHP-Iy-arJ">
+            <objects>
+                <viewController id="gVA-ob-Cnn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P1y-ub-1si">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qle-gs-Ijj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Screen 4" image="square.split.bottomrightquarter.fill" catalog="system" id="eFh-mD-SeD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QFh-Vb-ibA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="686" y="890"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8Hq-Z4-XEQ">
@@ -231,6 +247,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="9Ed-T4-dYL"/>
                         <segue destination="DhI-QB-DpN" kind="relationship" relationship="viewControllers" id="OQg-aS-PYO"/>
                         <segue destination="C60-WC-6cM" kind="relationship" relationship="viewControllers" id="tmU-cE-SAU"/>
+                        <segue destination="gVA-ob-Cnn" kind="relationship" relationship="viewControllers" id="e2I-Ep-9H8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k9Y-As-NBS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
