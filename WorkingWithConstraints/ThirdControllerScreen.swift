@@ -11,8 +11,8 @@ class ThirdControllerScreen: UIViewController {
     
     // MARK: - Properties
  
-    
     @IBOutlet var myView: UIView!
+    @IBOutlet var someView: UIView!
     
     
     // MARK: - UIViewController
@@ -21,6 +21,7 @@ class ThirdControllerScreen: UIViewController {
         
         // setup
         myView.layer.cornerRadius = 10
+        someView.layer.cornerRadius = 10
     }
     
     // MARK: - Interface Builder actions
