@@ -224,14 +224,34 @@
                     <view key="view" contentMode="scaleToFill" id="P1y-ub-1si">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a59-44-7bG" userLabel="PurpleView">
+                                <rect key="frame" x="0.0" y="0.0" width="127.33333333333333" height="844"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lpn-c3-jJJ" userLabel="OrangeView">
+                                <rect key="frame" x="135.33333333333337" y="0.0" width="254.66666666666663" height="844"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="qle-gs-Ijj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a59-44-7bG" firstAttribute="leading" secondItem="P1y-ub-1si" secondAttribute="leading" id="6y9-xI-Flk"/>
+                            <constraint firstItem="lpn-c3-jJJ" firstAttribute="width" secondItem="a59-44-7bG" secondAttribute="width" multiplier="2" id="EYU-8F-cfp"/>
+                            <constraint firstItem="a59-44-7bG" firstAttribute="bottom" secondItem="lpn-c3-jJJ" secondAttribute="bottom" id="SRB-BD-1GL"/>
+                            <constraint firstItem="a59-44-7bG" firstAttribute="bottom" secondItem="P1y-ub-1si" secondAttribute="bottom" id="UbE-tO-lOB"/>
+                            <constraint firstItem="lpn-c3-jJJ" firstAttribute="trailing" secondItem="P1y-ub-1si" secondAttribute="trailing" id="cUO-HK-YTm"/>
+                            <constraint firstItem="a59-44-7bG" firstAttribute="top" secondItem="lpn-c3-jJJ" secondAttribute="top" id="erY-on-9dW"/>
+                            <constraint firstItem="lpn-c3-jJJ" firstAttribute="leading" secondItem="a59-44-7bG" secondAttribute="trailing" constant="8" symbolic="YES" id="hdC-Qp-I2l"/>
+                            <constraint firstItem="a59-44-7bG" firstAttribute="top" secondItem="P1y-ub-1si" secondAttribute="top" id="zyT-h0-Utx"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Screen 4" image="square.split.bottomrightquarter.fill" catalog="system" id="eFh-mD-SeD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QFh-Vb-ibA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="686" y="890"/>
+            <point key="canvasLocation" x="684.61538461538464" y="889.33649289099526"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8Hq-Z4-XEQ">
@@ -270,8 +290,14 @@
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
