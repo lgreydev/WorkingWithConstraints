@@ -260,14 +260,37 @@
                     <view key="view" contentMode="scaleToFill" id="kV3-zO-AaC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9B1-Y2-NfH" userLabel="TealView">
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="844"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="0CK-wD-4Np"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghK-3p-VL0" userLabel="PinkView">
+                                <rect key="frame" x="158" y="0.0" width="232" height="844"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="HJd-ug-Ysn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9B1-Y2-NfH" firstAttribute="bottom" secondItem="kV3-zO-AaC" secondAttribute="bottom" id="BDJ-zN-pwo"/>
+                            <constraint firstItem="9B1-Y2-NfH" firstAttribute="leading" secondItem="kV3-zO-AaC" secondAttribute="leading" id="FE9-ut-5Jk"/>
+                            <constraint firstItem="ghK-3p-VL0" firstAttribute="trailing" secondItem="kV3-zO-AaC" secondAttribute="trailing" id="Oc3-rf-5F3"/>
+                            <constraint firstItem="ghK-3p-VL0" firstAttribute="width" secondItem="9B1-Y2-NfH" secondAttribute="width" multiplier="2" priority="750" id="bW8-Md-CfC"/>
+                            <constraint firstItem="9B1-Y2-NfH" firstAttribute="bottom" secondItem="ghK-3p-VL0" secondAttribute="bottom" id="czy-2J-e3R"/>
+                            <constraint firstItem="ghK-3p-VL0" firstAttribute="leading" secondItem="9B1-Y2-NfH" secondAttribute="trailing" constant="8" symbolic="YES" id="fPv-5l-9fy"/>
+                            <constraint firstItem="9B1-Y2-NfH" firstAttribute="top" secondItem="ghK-3p-VL0" secondAttribute="top" id="qJ2-uO-atf"/>
+                            <constraint firstItem="9B1-Y2-NfH" firstAttribute="top" secondItem="kV3-zO-AaC" secondAttribute="top" id="v8F-GS-DdN"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Screen 5" image="square.split.bottomrightquarter.fill" catalog="system" id="apl-xP-sje"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCM-j9-6Id" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1338" y="935"/>
+            <point key="canvasLocation" x="1336.9230769230769" y="934.83412322274876"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8Hq-Z4-XEQ">
@@ -315,6 +338,9 @@
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
