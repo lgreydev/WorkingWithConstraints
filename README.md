@@ -3,15 +3,17 @@ The following screen show how you can use stack views and constraints to create 
 
 
 ## Contents
-- [Screen 1 - Simple Stack View](#simple-stack-view-screen-1)
-- [Screen 2 - Nested Stack Views](#nested-stack-views-screen-2)
-- [Screen 3 - Views Stack with Intrinsic Content Size](#views-stack-with-intrinsic-content-size-screen-3)
-- [Screen 4 - Two Equal-Width Views](#two-equal-width-views-screen-4)
-- [Screen 5 - Two Different-Width Views](#two-different-width-views-screen-5)
-- [Screen 6 - Two Views with Complex Widths](#two-views-with-complex-widths-screen-6)
+- [Screen 1 - Simple Stack View](#simple-stack-view---screen-1)
+- [Screen 2 - Nested Stack Views](#nested-stack-views---screen-2)
+- [Screen 3 - Views Stack with Intrinsic Content Size](#views-stack-with-intrinsic-content-size---screen-3)
+- [Screen 4 - Two Equal-Width Views](#two-equal-width-views---screen-4)
+- [Screen 5 - Two Different-Width Views](#two-different-width-views---screen-5)
+- [Screen 6 - Two Views with Complex Widths](#two-views-with-complex-widths---screen-6)
 
 ## Clone
-
+**HTTPS** `https://github.com/lgreydev/WorkingWithConstraints.git`<br>
+**SSH** `git@github.com:lgreydev/WorkingWithConstraints.git`<br>
+**GitHub CLI** `gh repo clone lgreydev/WorkingWithConstraints`<br>
 
 
 ## Usage
