@@ -55,10 +55,10 @@ The this screen 6, the system tries to make the red view twice as wide as the bl
 
 
 ## Contributing
-[Sergey Lukaschuk](https://github.com/lgreydev)  ✉️ s.lukaschuk@yahoo.com
+Sergey Lukaschuk ✉️ s.lukaschuk@yahoo.com
 
 ## License & Copyright
-© [Sergey Lukaschuk iOS Engineer](https://github.com/lgreydev)
+© Sergey Lukaschuk, software engineer.
 
 Licensed under the [MIT Licensed](https://github.com/lgreydev/WorkingWithConstraints/blob/main/License)
 
