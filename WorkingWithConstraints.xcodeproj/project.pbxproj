@@ -60,6 +60,9 @@
 		5E5D4B1E26C178BA0020E5E8 = {
 			isa = PBXGroup;
 			children = (
+				5E7A295F26D9300D00C48A0C /* Screenshots */,
+				5E7A295D26D9247900C48A0C /* README.md */,
+				5E7A296C26D93B5E00C48A0C /* .gitignore */,
 				5E5D4B2926C178BA0020E5E8 /* WorkingWithConstraints */,
 				5E5D4B2826C178BA0020E5E8 /* Products */,
 			);
@@ -76,7 +79,6 @@
 		5E5D4B2926C178BA0020E5E8 /* WorkingWithConstraints */ = {
 			isa = PBXGroup;
 			children = (
-				5E7A295F26D9300D00C48A0C /* Screenshots */,
 				5E5D4B2A26C178BA0020E5E8 /* AppDelegate.swift */,
 				5E5D4B2C26C178BA0020E5E8 /* SceneDelegate.swift */,
 				5E5D4B2E26C178BA0020E5E8 /* ViewController.swift */,
@@ -86,8 +88,6 @@
 				5E5D4B3526C178BC0020E5E8 /* LaunchScreen.storyboard */,
 				5E5D4B3826C178BC0020E5E8 /* Info.plist */,
 				5E7A295B26D7846000C48A0C /* ThirdControllerScreen.swift */,
-				5E7A295D26D9247900C48A0C /* README.md */,
-				5E7A296C26D93B5E00C48A0C /* .gitignore */,
 			);
 			path = WorkingWithConstraints;
 			sourceTree = "<group>";
