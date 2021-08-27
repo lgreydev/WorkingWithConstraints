@@ -23,6 +23,7 @@
 		5E7A296A26D9351F00C48A0C /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A296426D9351F00C48A0C /* 002.jpg */; };
 		5E7A296B26D9351F00C48A0C /* 006.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A296526D9351F00C48A0C /* 006.jpg */; };
 		5E7A296D26D93B5E00C48A0C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A296C26D93B5E00C48A0C /* .gitignore */; };
+		5E7A296F26D93F3000C48A0C /* License in Resources */ = {isa = PBXBuildFile; fileRef = 5E7A296E26D93F3000C48A0C /* License */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		5E7A296426D9351F00C48A0C /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
 		5E7A296526D9351F00C48A0C /* 006.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 006.jpg; sourceTree = "<group>"; };
 		5E7A296C26D93B5E00C48A0C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5E7A296E26D93F3000C48A0C /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5E7A295F26D9300D00C48A0C /* Screenshots */,
 				5E7A295D26D9247900C48A0C /* README.md */,
 				5E7A296C26D93B5E00C48A0C /* .gitignore */,
+				5E7A296E26D93F3000C48A0C /* License */,
 				5E5D4B2926C178BA0020E5E8 /* WorkingWithConstraints */,
 				5E5D4B2826C178BA0020E5E8 /* Products */,
 			);
@@ -167,6 +170,7 @@
 			files = (
 				5E7A296726D9351F00C48A0C /* 004.jpg in Resources */,
 				5E7A296826D9351F00C48A0C /* 003.jpg in Resources */,
+				5E7A296F26D93F3000C48A0C /* License in Resources */,
 				5E19EAF226D6402B0077A6DF /* flowers.png in Resources */,
 				5E7A296926D9351F00C48A0C /* 001.jpg in Resources */,
 				5E7A296D26D93B5E00C48A0C /* .gitignore in Resources */,
